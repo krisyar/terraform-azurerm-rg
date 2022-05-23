@@ -9,6 +9,6 @@ output "resource_group_name" {
 }
 
 output "rg_cc_location" {
-  value       = azurerm_resource_group.rg..location
+  value       = azurerm_resource_group.rg.location
   description = "The Resource Group Location"
 }
